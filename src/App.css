@@ -1,3 +1,92 @@
+.hidden{
+  
+  text-decoration: line-through;
+  color: rgb(205, 13, 96);
+   
+  /* display: none;  */
+}
+body{
+  text-align: center;
+  /* background-color: rgb(254, 221, 254); */
+  /* background-color: #cfdef3; */
+  background: #9796f0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+button{
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+   /* background-color: rgb(148, 102, 191);  */
+   background-color: rgb(161, 106, 161);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px rgb(206, 173, 240);
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.container{
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  height: auto;
+  min-height: 90vh;
+  padding-bottom: 100px;
+  
+}
+.containerQuotes{
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+h1{
+  /* color: rgb(130, 59, 130);  */
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+p{
+  font-size: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: rgb(116, 32, 116); 
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px rgb(151, 116, 185);
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  width: 400px;
+}
+.list
+{
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 20px;
+  color:rgb(94, 64, 153); 
+  font-size: 20px;
+
+}
+
+input{
+  border: 2px solid  rgb(148, 102, 191);;
+  border-radius: 4px;
+  font-size: 20px;
+  color:rgb(206, 142, 206);
+  margin-left: 15px;
+}
+label{
+  color: rgb(150, 81, 150);
+  font-size: 20px;
+  
+}
+
 .App {
   text-align: center;
 }
@@ -31,3 +120,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media only screen and (max-width: 560px) {
+
+  h1{
+
+    font-size: 20px;
+  }
+  p{
+    color: rgba(82, 6, 85, 0.952);
+    font-size: 10px;
+    font-weight: bold;
+    width: 200px
+  }
+  body {
+    background: #454491;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eec1cc, #a5a4ca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ecafbe, #a7a6ec); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+} 
