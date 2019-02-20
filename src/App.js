@@ -54,7 +54,7 @@ class App extends Component {
     console.log('hi');
     axios({
       method: 'get',
-      url: "http://quotes.rest/qod.json" // the url for the quote that changes everday
+      url: "https://quotes.rest/qod.json" // the url for the quote that changes everday
     }).then((response) => {
       console.log(response.data.contents.quotes[0].quote) // print the quotes in the console
       this.setState({
