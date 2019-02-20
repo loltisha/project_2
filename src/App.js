@@ -50,7 +50,7 @@ class App extends Component {
      task:copyItem //  update the state with the new copy
     })
   }
-  componentDidMount(){ //it like axios method
+  componentDidMount(){ // it allows to work with axios methods.
     console.log('hi');
     axios({
       method: 'get',
